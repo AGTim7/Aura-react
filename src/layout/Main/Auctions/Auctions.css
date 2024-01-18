@@ -1,0 +1,26 @@
+.auctions-top {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 32px;
+}
+.auctions-top__h2 {
+}
+.auctions-top-live {
+  display: flex;
+  align-items: center;
+  padding: 9.5px 15px;
+  border-radius: 40px;
+  border: 2px solid #D13130;
+  margin-left: 16px;
+}
+.auctions-top-live__circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #D13130;
+}
+.auctions-top-live__text {
+  margin-left: 5px;
+  color: #D13130;
+}

@@ -1,0 +1,19 @@
+.price{
+  display: flex;
+  flex-direction: column;
+  background: #EDEDF2;
+  padding: 32px 57px 32px 32px;
+  border-radius: 40px;
+
+}
+.price-text{
+  font-size: 20px;
+}
+.price-eth{
+  margin-top: 16px;
+  font-size: 48px;
+}
+.price-dollar{
+  color: #95959D;
+  margin-top: 6px;
+}

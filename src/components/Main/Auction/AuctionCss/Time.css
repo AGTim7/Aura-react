@@ -1,0 +1,33 @@
+.time{
+  display: flex;
+  margin-left: 32px;
+  background: #07060B;
+  color: #ffffff;
+  padding: 32px 32px 32px 32px;
+  border-radius: 40px;
+}
+.time-flex{
+
+}
+.time-text{
+
+}
+.time-body{
+  display: flex;
+  gap: 26px;
+  margin-top: 16px;
+}
+.time-body-el{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-body-el__num{
+  font-size: 48px;
+}
+.time-body-el__txt{
+
+}
+.time-image{
+  margin-left: 20px;
+}
