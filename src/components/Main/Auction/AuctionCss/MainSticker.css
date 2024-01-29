@@ -28,7 +28,30 @@
   font-size: 48px;
   font-weight: 400;
   margin-top: 32px;
+  white-space: nowrap;
 }
 .mainsticker-info-components {
   display: flex;
+  margin-top: 32px; 
+}
+.mainsticker-button {
+  font-family: Muller;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background: #46F4DB;
+  white-space: nowrap;
+  width: min-content;
+  border-radius: 40px;
+  padding: 25px 74px;
+  margin-top: 32px;
+}
+.mainsticker-button:hover{
+  background: linear-gradient(#46F4DB, #57D272);
+}
+.mainsticker-button:focus{
+  background: linear-gradient(#46F4DB, #57D272);
+}
+.mainsticker-button:active{
+  background: #57D272;
 }

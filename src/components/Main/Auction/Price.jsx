@@ -8,7 +8,7 @@ function Price(props){
 
   return(
     <div className="price">
-      <span className="price-text">Ставка</span>
+      <span className="price-text">Ставка:</span>
       <span className="price-eth">{stickersDataIndex.price}ETH</span>
       <span className="price-dollar">${Math.round(stickersDataIndex.price * 226861) / 100}</span>
     </div>

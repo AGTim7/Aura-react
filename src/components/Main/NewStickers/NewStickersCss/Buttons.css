@@ -1,0 +1,24 @@
+.new-stickers__buttons {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.new-stickers__button{
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 40px;
+  border: 2px solid #D13130;
+}
+.new-stickers__button:hover{
+  background: #FF6F6F;
+  border-color: #FF6F6F;
+}
+.new-stickers__button:focus{
+  background: #FF6F6F;
+  border-color: #FF6F6F;
+}
+.new-stickers__button:active{
+  background: #D13130;
+  border-color: #D13130;
+}

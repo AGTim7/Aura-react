@@ -20,7 +20,7 @@ function MainSticker(props){
           <Price index={props.index}/>
           <Time index={props.index}/>
         </div>
-        <button>Сделать ставку</button>
+        <button className="mainsticker-button">Сделать ставку</button>
         </div>
     </div>
   )

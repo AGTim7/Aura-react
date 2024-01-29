@@ -4,8 +4,6 @@
   margin-top: 90px;
   margin-bottom: 32px;
 }
-.auctions-top__h2 {
-}
 .auctions-top-live {
   display: flex;
   align-items: center;
@@ -23,4 +21,33 @@
 .auctions-top-live__text {
   margin-left: 5px;
   color: #D13130;
+}
+.auction-more__text{
+  font-family: 'RussoOne';
+  font-weight: 400;
+  margin: 90px 0 32px;
+}
+.auctions-other{
+  display: flex;
+  flex-direction: column;
+}
+.auctions-other__button{
+  margin: auto;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 32px;
+  padding: 20px 75px;
+  border-radius: 40px;
+  border: 5px solid #46F4DB;
+}
+.auctions-other__button:hover{
+  background: #46F4DB;
+}
+.auctions-other__button:focus{
+  background: #46F4DB;
+}
+.auctions-other__button:active{
+  background: #57D272;
+  border-color: #57D272;
 }

@@ -6,12 +6,24 @@ import './Auctions.css'
 function Auctions(){
   let stickList = [];
   const [stickIndex, setStickIndex] = useState('stick1')
-    for(let key of Object.keys(stickersData)){
-      stickList.push(<Sticker index={key} onClick={()=>{
-        setStickIndex(key)
-      }}/>)
-      
+  for(let key of Object.keys(stickersData)){
+    stickList.push(<Sticker index={key} onClick={()=>{
+      setStickIndex(key)
+    }}/>)
+    
+  }
+  const [visionStickers, setVisionStickers] = useState(stickList.slice(0,8))
+
+  const [buttonCondition, setButtonCondition] = useState('Другие аукционы')
+  function handleClick(){
+    if(buttonCondition == 'Другие аукционы'){
+    setVisionStickers(stickList.slice(0,40));
+    setButtonCondition('Скрыть');
+    }else{
+      setVisionStickers(stickList.slice(0,8));
+      setButtonCondition('Другие аукционы');
     }
+  }
 
     return(
       <div className='container'>
@@ -23,7 +35,11 @@ function Auctions(){
         </div>
       </div>
       <MainSticker index={stickIndex}/>
-      <ul className='auctions-other_sticks'>{stickList}</ul>
+      <h3 className='auction-more__text'>Другие аукционы</h3>
+      <div className='auctions-other'>
+        <ul className='auctions-other_sticks'>{visionStickers}</ul>
+        <button onClick={handleClick} className='auctions-other__button'>{buttonCondition}</button>
+      </div>
       </div>
       )
   }
