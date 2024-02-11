@@ -1,0 +1,35 @@
+.stick-sale {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  margin-top: 32px;
+}
+.stick-sale-image {
+  background-color: #EDEDF2;
+  padding: 16px 0 16px 16px;
+  border-radius: 40px 0 0 40px;
+}
+.stick-sale-info {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-left: 32px;
+}
+.stick-sale-info-profile {
+  display: flex;
+  align-items: center;
+}
+.stick-sale-info-profile__avatar {
+}
+.stick-sale-info-profile__nickname {
+  margin-left: 8px;
+}
+.stick-sale-info__stickname {
+  font-size: 48px;
+}
+.stick-sale-info-price {
+}
+.stick-sale-info-price__dollar{
+  color: #95959D;
+}

@@ -10,7 +10,6 @@ function Auctions(){
     stickList.push(<Sticker index={key} onClick={()=>{
       setStickIndex(key)
     }}/>)
-    
   }
   const [visionStickers, setVisionStickers] = useState(stickList.slice(0,8))
 
@@ -26,7 +25,7 @@ function Auctions(){
   }
 
     return(
-      <div className='container'>
+      <div className='auctions container'>
       <div className='auctions-top'>
         <h2 className='auctions-top__h2'>Аукцион</h2>
         <div className='auctions-top-live'>

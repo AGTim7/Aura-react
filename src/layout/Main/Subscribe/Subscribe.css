@@ -1,0 +1,101 @@
+.subscribe {
+  background-color: #D13130;
+  height: 391px;
+}
+.subscribe-container{
+  position: relative;
+  display: flex;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0px;
+  margin-top: 32px;
+}
+.subscribe-form__legend {
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'RussoOne';
+  font-weight: 400;
+}
+.subscribe-form-input__nickname {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 25px 0px 25px 32px;
+  background:#07060B;
+  border: none;
+  width: 428px;
+  border-radius: 40px;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 400;
+}
+.subscribe-form-input__nickname:focus{
+  background: none;
+  outline: none;
+  padding: 23px 2px 23px 30px;
+  width: 424px;
+  border: 2px solid #07060B;
+}
+.subscribe-form-input__nickname::placeholder{
+  color: #EDEDF2;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 400;
+}
+.subscribe-form-input__email {
+  color: #ffffff;
+  background:#07060B;
+  border: none;
+  width: 428px;
+  border-radius: 40px;
+  padding: 25px 0px 25px 32px;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 400;
+}
+.subscribe-form-input__email:focus{
+  background: none;
+  outline: none;
+  padding: 23px 2px 23px 30px;
+  width: 424px;
+  border: 2px solid #07060B;
+}
+.subscribe-form-input__email::placeholder{
+  color: #EDEDF2;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 400;
+}
+.subscribe-form-submit {
+  padding: 25px 54px;
+  width: 296px;
+  font-family: 'Muller';
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 40px;
+  background: #46F4DB;
+  border: none;
+}
+.subscribe-form-submit{
+  background: linear-gradient(#46F4DB, #57D272);
+}
+.subscribe-form-submit:focus{
+  background: linear-gradient(#46F4DB, #57D272);
+}
+.subscribe-form-submit:active{
+  background: #57D272;
+}
+.subscribe-form__text {
+}
+.subscribe-form__checkbox {
+  width: 14px;
+  height: 14px;
+}
+.subscribe-image{
+  position: absolute;
+  right: 0;
+}

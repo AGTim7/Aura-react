@@ -6,7 +6,7 @@ const newStickersPack=[
   ],
   [
     './images/stickers/2/stick1.png',
-    './images/stickers/2/stick1.png'
+    './images/stickers/2/stick2.png'
   ],
   [
     './images/stickers/3/stick1.png',

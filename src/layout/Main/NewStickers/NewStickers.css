@@ -1,0 +1,15 @@
+.new-stickers{
+  padding: 90px 0;
+  background-color: black;
+}
+.new-stickers-top__h2{
+  color: white;
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.new-stickers-top{
+  display: flex;
+  align-items: center;
+}

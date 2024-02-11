@@ -1,7 +1,9 @@
+.auctions{
+  padding: 90px 0;
+}
 .auctions-top {
   display: flex;
   align-items: center;
-  margin-top: 90px;
   margin-bottom: 32px;
 }
 .auctions-top-live {

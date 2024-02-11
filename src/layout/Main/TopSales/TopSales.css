@@ -1,0 +1,12 @@
+.top-sales{
+  background-color: black;
+  padding: 90px 0;
+}
+.top-sales__h2{
+  color: white;
+}
+.top-sales-container{
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}

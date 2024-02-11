@@ -1,23 +1,17 @@
 import React, {useState} from 'react'
-import NewStickersPack from '../../../components/Main/NewStickers/NewStickersPack-data.js'
-import Buttons from '../../../components/Main/NewStickers/Buttons.jsx'
+import Slider from '../../../components/Main/NewStickers/Slider.jsx'
+import './NewStickers.css'
 
 function NewStickers(){
-  const [focusButton, setFocusButton] = useState(0)
-  const [visionStickers, setvisionStickers] = useState(
-    )
-    const list = NewStickersPack[0][0]
-    
-
+  
   return(
-    <div>
-      <div>
-        <div>
-          <img src="./images/stickers/fire.png" alt="fire" />
-          <h2>Новые стикеры</h2>
-        </div>
-        
-          <Buttons/>
+    <div className='new-stickers'>
+      <div className='container'>
+          <div className='new-stickers-top'>
+            <img src="./images/stickers/fire.png" alt="fire" />
+            <h2 className='new-stickers-top__h2'>Новые стикеры</h2>
+          </div>
+          <Slider/>
       </div>
     </div>
   )
